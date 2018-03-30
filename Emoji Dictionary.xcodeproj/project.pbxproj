@@ -12,6 +12,7 @@
 		611A980D206957CF00CDEFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611A980C206957CF00CDEFFB /* Assets.xcassets */; };
 		611A9810206957CF00CDEFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611A980E206957CF00CDEFFB /* LaunchScreen.storyboard */; };
 		611A981820695BDB00CDEFFB /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A981720695BDB00CDEFFB /* EmojiTableViewController.swift */; };
+		611A981C206D3BA200CDEFFB /* EmojiDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611A981B206D3BA200CDEFFB /* EmojiDefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		611A980F206957CF00CDEFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		611A9811206957CF00CDEFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611A981720695BDB00CDEFFB /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		611A981B206D3BA200CDEFFB /* EmojiDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				611A9805206957CF00CDEFFB /* AppDelegate.swift */,
 				611A981720695BDB00CDEFFB /* EmojiTableViewController.swift */,
+				611A981B206D3BA200CDEFFB /* EmojiDefinitionViewController.swift */,
 				611A9809206957CF00CDEFFB /* Main.storyboard */,
 				611A980C206957CF00CDEFFB /* Assets.xcassets */,
 				611A980E206957CF00CDEFFB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				611A981820695BDB00CDEFFB /* EmojiTableViewController.swift in Sources */,
+				611A981C206D3BA200CDEFFB /* EmojiDefinitionViewController.swift in Sources */,
 				611A9806206957CF00CDEFFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
