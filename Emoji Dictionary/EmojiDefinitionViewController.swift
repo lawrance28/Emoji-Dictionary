@@ -20,7 +20,16 @@ class EmojiDefinitionViewController: UIViewController {
         emojiLabel.text = emoji
 // ["😀","💩","🦑","🏈","🚘","🕍"]
         if emoji == "😀" {emojiDefinitionLabel.text = "A nice smile"
-            
+        }
+        if emoji == "💩" {emojiDefinitionLabel.text = "💩"
+        }
+        if emoji == "🦑" {emojiDefinitionLabel.text = "🦑"
+        }
+        if emoji == "🏈" {emojiDefinitionLabel.text = "🏈"
+        }
+        if emoji == "🚘" {emojiDefinitionLabel.text = "🚘"
+        }
+        if emoji == "🕍" {emojiDefinitionLabel.text = "🕍"
         }
         
     }
