@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tpT-Vb-inM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tpT-Vb-inM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -64,18 +64,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nS3-fg-KU8">
+                                <rect key="frame" x="91.5" y="576" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth Year : 2013" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33o-gt-Sm2">
+                                <rect key="frame" x="124" y="607" width="127" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="UMX-Uz-jdJ" firstAttribute="top" secondItem="q5L-1a-JbR" secondAttribute="top" constant="20" id="Uya-hB-XZp"/>
                             <constraint firstItem="Vmk-bH-cHu" firstAttribute="leading" secondItem="q5L-1a-JbR" secondAttribute="leading" constant="10" id="c2q-DJ-O2i"/>
                             <constraint firstItem="q5L-1a-JbR" firstAttribute="bottom" secondItem="Vmk-bH-cHu" secondAttribute="bottom" constant="10" id="iJT-dc-Lhb"/>
+                            <constraint firstItem="33o-gt-Sm2" firstAttribute="centerX" secondItem="Uhg-wD-mcg" secondAttribute="centerX" id="iqw-jR-vFk"/>
                             <constraint firstItem="UMX-Uz-jdJ" firstAttribute="centerX" secondItem="Uhg-wD-mcg" secondAttribute="centerX" id="s1s-ul-mEt"/>
+                            <constraint firstItem="Vmk-bH-cHu" firstAttribute="top" secondItem="33o-gt-Sm2" secondAttribute="bottom" constant="8" id="uoW-Hh-EgG"/>
+                            <constraint firstItem="33o-gt-Sm2" firstAttribute="top" secondItem="nS3-fg-KU8" secondAttribute="bottom" constant="10" id="wkF-w7-BTe"/>
+                            <constraint firstItem="nS3-fg-KU8" firstAttribute="centerX" secondItem="Uhg-wD-mcg" secondAttribute="centerX" id="xHq-GH-eCy"/>
                             <constraint firstItem="q5L-1a-JbR" firstAttribute="trailing" secondItem="Vmk-bH-cHu" secondAttribute="trailing" constant="10" id="zxP-Hy-4cZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="q5L-1a-JbR"/>
                     </view>
                     <connections>
+                        <outlet property="birthLabel" destination="33o-gt-Sm2" id="pnQ-US-gYU"/>
+                        <outlet property="categoryLabel" destination="nS3-fg-KU8" id="YIF-GF-ars"/>
                         <outlet property="emojiDefinitionLabel" destination="Vmk-bH-cHu" id="VrM-mb-Zxf"/>
                         <outlet property="emojiLabel" destination="UMX-Uz-jdJ" id="vCO-1m-BrT"/>
                     </connections>
